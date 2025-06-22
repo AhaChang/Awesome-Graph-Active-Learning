@@ -6,13 +6,13 @@ A comprehensive collection of Graph Active Learning (GAL) papers.
 ## 💡 What is GAL?
 > Graph Active Learning applies active learning to graph-structured data, strategically selecting valuable graph entities (nodes, edges, or subgraphs) for annotation to maximize GNN performance under limited labeling budgets.
 
-![GAL Illustration](GSSL_GAL.jpg)
+![GAL Illustration](GAL_Workflow.png)
 
 
 ## 🏷️ Taxonomy
 We categorize GAL methods along three orthogonal dimensions that capture the fundamental design choices in graph active learning: how entities are queried (AL mode), the quality of obtained labels (annotation type), and the criteria for entity selection (query strategy).
 
-![Taxonomy](GAL_demo.jpg)
+![Taxonomy](GAL_taxonomy.png)
 
 ### Active Learning Mode
 - **Sequential**: Query one entity per iteration
